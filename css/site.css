@@ -1,6 +1,13 @@
 .navbar{
     background-color: rgb(39, 2, 2) !important;
 }
+/*#sign1{
+    
+}
+#sign2{
+    
+}*/
+
 #alter{
     margin-top: 50px;
     text-align: center;
@@ -8,13 +15,20 @@
 
 #submit-button{
     border-radius: 40%;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
-.header{
+#header{
     margin-top: 20px;
-
+}
+.header{
+    display: inline;
+    
 }
 .table{
     margin-top: 20px;
+}
+
+#register{
+    margin-left: 20px;
 }
