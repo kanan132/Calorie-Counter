@@ -25,20 +25,45 @@ document.getElementById("sign-up").addEventListener("click",function(){
           Please provide a valid email.
         </div>
       </div>
-      <div class="col-md-4 mb-3">
+      <div class="col-md-6 mb-3">
         <label for="validationTooltip04">Password</label>
-        <input type="text" class="form-control" id="validationTooltip03" required>
+        <input type="text" class="form-control" id="validationTooltip03" placeholder="min 8 figures required" required>
         <div class="invalid-tooltip">
           Please provide a valid password.
         </div>
       </div>
-      <div class="col-md-2 mb-3">
-        <label for="validationTooltip05">Sex</label>
-        <input type="text" class="form-control" id="validationTooltip05" required>
-        <div class="invalid-tooltip">
-          Please provide a valid sex.
+    </div>
+    <div class="form-row">  
+        <div class="col-md-3 mb-3">
+            <label for="validationTooltip05">Sex</label>
+            <input type="text" class="form-control" id="validationTooltip05" required>
+            <div class="invalid-tooltip">
+            Please provide a valid sex.
+            </div>
+        </div>  
+    
+        <div class="col-md-3 mb-3">
+            <label for="validationTooltip04">Age</label>
+            <input type="text" class="form-control" id="validationTooltip03" required>
+            <div class="invalid-tooltip">
+            Please provide a valid age.
+            </div>
         </div>
-      </div>
+        <div class="col-md-3 mb-3">
+            <label for="validationTooltip04">Weight</label>
+            <input type="text" class="form-control" id="validationTooltip03" required>
+            <div class="invalid-tooltip">
+            Please provide a valid age.
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <label for="validationTooltip04">Height</label>
+            <input type="text" class="form-control" id="validationTooltip03" required>
+            <div class="invalid-tooltip">
+            Please provide a valid age.
+            </div>
+        </div>
+      
     </div>
     <button class="btn btn-primary" type="submit">Submit form</button>
   </form>
